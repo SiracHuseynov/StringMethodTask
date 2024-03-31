@@ -5,3 +5,10 @@ C:\Users\Sirac Huseynov\Desktop\UniTekrar\StringArrayMethodTask\StringArrayMetho
 C:\Users\Sirac Huseynov\Desktop\UniTekrar\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.csproj.CoreCompileInputs.cache
 C:\Users\Sirac Huseynov\Desktop\UniTekrar\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.exe
 C:\Users\Sirac Huseynov\Desktop\UniTekrar\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\bin\Debug\StringArrayMethodTask.exe.config
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\bin\Debug\StringArrayMethodTask.exe
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\bin\Debug\StringArrayMethodTask.pdb
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.csproj.AssemblyReference.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.csproj.CoreCompileInputs.cache
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.exe
+C:\Users\Sirac Huseynov\Desktop\codee's repo\StringMethodTask\StringArrayMethodTask\StringArrayMethodTask\obj\Debug\StringArrayMethodTask.pdb

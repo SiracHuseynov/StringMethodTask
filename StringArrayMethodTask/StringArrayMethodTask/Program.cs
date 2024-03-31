@@ -8,7 +8,7 @@ namespace StringArrayMethodTask
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             string choice = "";
 
@@ -28,7 +28,7 @@ namespace StringArrayMethodTask
 
             do
             {
-            
+
                 Console.WriteLine("1 - Telebe elave et");
                 Console.WriteLine("2 - Butun telebelere bax");
                 Console.WriteLine("3 - Telebeler uzre axtaris et");
@@ -42,8 +42,13 @@ namespace StringArrayMethodTask
                     Console.Write("Telebe adini daxil edin: ");
                     name = Console.ReadLine();
 
-                    Console.Write("Telebe balini daxil edin: ");
-                    avgPoint = Convert.ToDouble(Console.ReadLine());
+                    do
+                    {
+                        Console.Write("Telebe balini daxil edin: ");
+                        avgPoint = Convert.ToDouble(Console.ReadLine());                        
+                    }
+                    while (!(avgPoint >= 0 && avgPoint <= 100));
+
                     groupNo++;
                     Student student = new Student(name, groupNo, avgPoint);
 

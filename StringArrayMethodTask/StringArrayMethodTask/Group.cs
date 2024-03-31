@@ -8,10 +8,10 @@ namespace StringArrayMethodTask
 {
     internal class Group
     {
-        private string _no;
+        private string No;
         private byte _studentLimit;
 
-        public string No
+        /*public string No
         {
             get
             {
@@ -74,7 +74,7 @@ namespace StringArrayMethodTask
 
 
             }
-        }
+        }*/
 
         public byte StudentLimit
         {
@@ -99,7 +99,7 @@ namespace StringArrayMethodTask
 
         public void AddStudent(Student student)
         {
-            if (Students.Length < StudentLimit && !String.IsNullOrEmpty(No))
+            if (Students.Length < StudentLimit && !String.IsNullOrEmpty(No)) 
             {
                 Array.Resize(ref Students, Students.Length + 1);
                 Students[Students.Length - 1] = student;
