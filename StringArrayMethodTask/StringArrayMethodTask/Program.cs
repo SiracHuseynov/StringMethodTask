@@ -18,11 +18,17 @@ namespace StringArrayMethodTask
 
             string searchName = "";
             
+            
             Console.Write("No daxil edin: ");
             string no = Console.ReadLine();
 
-            Console.Write("Student limit daxil edin: ");
-            byte studentLimit = Convert.ToByte(Console.ReadLine());          
+            byte studentLimit = 0;
+
+            do
+            {
+                Console.Write("Student limit daxil edin: ");               
+            }
+            while (!byte.TryParse(Console.ReadLine(), out studentLimit));
 
             Group group = new Group(no, studentLimit);
 
@@ -41,14 +47,14 @@ namespace StringArrayMethodTask
                 {
                     Console.Write("Telebe adini daxil edin: ");
                     name = Console.ReadLine();
+                    
 
                     do
                     {
-                        Console.Write("Telebe balini daxil edin: ");
-                        avgPoint = Convert.ToDouble(Console.ReadLine());                        
+                        Console.Write("Telebe balini daxil edin: ");                     
                     }
-                    while (!(avgPoint >= 0 && avgPoint <= 100));
-
+                    while (!(double.TryParse(Console.ReadLine(), out avgPoint) && (avgPoint >= 0 && avgPoint <= 100)));
+                   
                     groupNo++;
                     Student student = new Student(name, groupNo, avgPoint);
 

@@ -11,7 +11,7 @@ namespace StringArrayMethodTask
         private string _no;
         private byte _studentLimit;
 
-        public string No
+       public string No
         {
             get
             {
@@ -119,7 +119,7 @@ namespace StringArrayMethodTask
             {
                 for (int i = 0; i < Students.Length; i++)
                 {
-                    if (fullName == Students[i].FullName)
+                    if (fullName.ToLower() == Students[i].FullName.ToLower())
                     {
                         f = false;
                         Array.Resize(ref newStudent, newStudent.Length + 1);
