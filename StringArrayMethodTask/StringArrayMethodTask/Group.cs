@@ -8,10 +8,10 @@ namespace StringArrayMethodTask
 {
     internal class Group
     {
-        private string No;
+        private string _no;
         private byte _studentLimit;
 
-        /*public string No
+        public string No
         {
             get
             {
@@ -74,7 +74,7 @@ namespace StringArrayMethodTask
 
 
             }
-        }*/
+        }
 
         public byte StudentLimit
         {
